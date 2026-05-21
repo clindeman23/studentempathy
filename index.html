@@ -318,7 +318,7 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Nunito',sans-serif
 <body>
 
 <!-- ── PROGRESS BAR ── -->
-<div id="progress" style="width:11.11%"></div>
+<div id="progress" style="width:10%"></div>
 
 <!-- ── CURSOR TRAIL + CONFETTI CANVAS ── -->
 <canvas id="fx" style="position:fixed;inset:0;pointer-events:none;z-index:9998;width:100%;height:100%;"></canvas>
@@ -393,10 +393,64 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Nunito',sans-serif
   </div>
 </div>
 
-<!-- S4 XGO SITE -->
+<!-- S4 TINKERING MENTALITY -->
+<div class="slide polka-tan" id="s4t">
+  <div class="floaty" style="top:8%;right:5%;font-size:1.8rem;animation-delay:0.6s;opacity:0.3">🔧</div>
+  <div class="floaty" style="bottom:15%;left:3%;font-size:1.5rem;animation-delay:2s;opacity:0.3">⚙️</div>
+  <div class="floaty" style="top:50%;right:2%;font-size:1.2rem;animation-delay:3.2s;opacity:0.3">💡</div>
+
+  <div class="topbar topbar-dk anim-up">
+    <span class="sticker sticker-honey">Chapter 3</span>
+    <h2 style="font-size:2.2rem;color:white">The Tinkering Mentality 🔧</h2>
+  </div>
+
+  <div style="flex:1;display:grid;grid-template-columns:1fr 1.6fr;overflow:hidden;">
+
+    <!-- left: big idea -->
+    <div style="padding:1.8rem 1.5rem 1.8rem 2rem;display:flex;flex-direction:column;justify-content:center;gap:1.2rem;border-right:2px dashed var(--caramel);">
+      <div class="anim-up-2" style="background:var(--warm-wh);border-radius:18px;padding:1.2rem 1.4rem;border:2.5px solid var(--honey);box-shadow:4px 5px 0 var(--honey);">
+        <p style="font-family:'Caveat',cursive;font-size:1.15rem;font-weight:700;color:var(--brown);margin-bottom:0.5rem">— Mitchel Resnick, MIT Media Lab</p>
+        <p style="font-family:'Fredoka',sans-serif;font-size:1.15rem;font-weight:500;color:var(--brown-dk);line-height:1.55">"The most important thing is not learning to code, but learning to <strong>think creatively, reason systematically, and work collaboratively</strong> — the skills needed to thrive."</p>
+      </div>
+      <div class="anim-up-3" style="background:var(--warm-wh);border-radius:18px;padding:1.2rem 1.4rem;border:2.5px solid var(--caramel);box-shadow:4px 5px 0 var(--caramel);">
+        <p style="font-family:'Fredoka',sans-serif;font-size:1rem;font-weight:600;color:var(--brown);line-height:1.65">We brought this into our classroom by letting students <strong style="color:var(--brown-dk)">experiment freely</strong>, break things without penalty, and learn that every failed attempt was just the next step — not a dead end.</p>
+      </div>
+      <div class="anim-up-4" style="background:var(--rust);border-radius:18px;padding:1rem 1.4rem;box-shadow:4px 5px 0 rgba(92,51,23,0.3);">
+        <p style="font-family:'Fredoka',sans-serif;font-size:1.05rem;font-weight:600;color:white;line-height:1.6">Empathy was the key — we had to <strong>feel what our students felt</strong> when they were stuck, and create a space where that feeling was safe. 🫀</p>
+      </div>
+    </div>
+
+    <!-- right: principle cards -->
+    <div style="padding:1.2rem 1.8rem 1.2rem 1.4rem;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:1rem;overflow:hidden;">
+      <div class="anim-up-2" style="background:var(--warm-wh);border-radius:18px;padding:1.1rem 1.2rem;border:2.5px solid var(--caramel);box-shadow:4px 5px 0 var(--caramel);transition:all .25s cubic-bezier(.34,1.56,.64,1);" onmouseover="this.style.transform='translateY(-5px) rotate(1deg)';this.style.boxShadow='7px 8px 0 var(--brown-lt)'" onmouseout="this.style.transform='';this.style.boxShadow='4px 5px 0 var(--caramel)'">
+        <div style="font-size:2rem;margin-bottom:0.5rem">🧪</div>
+        <div style="font-family:'Fredoka',sans-serif;font-size:1.15rem;font-weight:700;color:var(--brown-dk);margin-bottom:0.3rem">Experiment First</div>
+        <div style="font-size:0.8rem;color:var(--brown);line-height:1.5;font-weight:600">Try it before you understand it. Curiosity is the engine — not the manual.</div>
+      </div>
+      <div class="anim-up-3" style="background:var(--warm-wh);border-radius:18px;padding:1.1rem 1.2rem;border:2.5px solid var(--honey);box-shadow:4px 5px 0 var(--honey);transition:all .25s cubic-bezier(.34,1.56,.64,1);" onmouseover="this.style.transform='translateY(-5px) rotate(-1deg)';this.style.boxShadow='7px 8px 0 var(--brown-lt)'" onmouseout="this.style.transform='';this.style.boxShadow='4px 5px 0 var(--honey)'">
+        <div style="font-size:2rem;margin-bottom:0.5rem">🔁</div>
+        <div style="font-family:'Fredoka',sans-serif;font-size:1.15rem;font-weight:700;color:var(--brown-dk);margin-bottom:0.3rem">Iterate Always</div>
+        <div style="font-size:0.8rem;color:var(--brown);line-height:1.5;font-weight:600">Version 1 is supposed to be broken. That's not failure — that's the process.</div>
+      </div>
+      <div class="anim-up-3" style="background:var(--warm-wh);border-radius:18px;padding:1.1rem 1.2rem;border:2.5px solid var(--peach);box-shadow:4px 5px 0 var(--peach);transition:all .25s cubic-bezier(.34,1.56,.64,1);" onmouseover="this.style.transform='translateY(-5px) rotate(1deg)';this.style.boxShadow='7px 8px 0 var(--rust)'" onmouseout="this.style.transform='';this.style.boxShadow='4px 5px 0 var(--peach)'">
+        <div style="font-size:2rem;margin-bottom:0.5rem">💥</div>
+        <div style="font-family:'Fredoka',sans-serif;font-size:1.15rem;font-weight:700;color:var(--brown-dk);margin-bottom:0.3rem">Embrace the Mess</div>
+        <div style="font-size:0.8rem;color:var(--brown);line-height:1.5;font-weight:600">Errors aren't problems — they're data. A dog falling off the table is a lesson, not a disaster.</div>
+      </div>
+      <div class="anim-up-4" style="background:var(--warm-wh);border-radius:18px;padding:1.1rem 1.2rem;border:2.5px solid var(--brown-lt);box-shadow:4px 5px 0 var(--brown-lt);transition:all .25s cubic-bezier(.34,1.56,.64,1);" onmouseover="this.style.transform='translateY(-5px) rotate(-1deg)';this.style.boxShadow='7px 8px 0 var(--brown)'" onmouseout="this.style.transform='';this.style.boxShadow='4px 5px 0 var(--brown-lt)'">
+        <div style="font-size:2rem;margin-bottom:0.5rem">🧠</div>
+        <div style="font-family:'Fredoka',sans-serif;font-size:1.15rem;font-weight:700;color:var(--brown-dk);margin-bottom:0.3rem">Own Your Learning</div>
+        <div style="font-size:0.8rem;color:var(--brown);line-height:1.5;font-weight:600">Students drive. Teachers co-explore. No one in the room has all the answers.</div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- S5 XGO SITE -->
 <div class="slide" id="s4">
   <div class="topbar topbar-dark-glass anim-up">
-    <span class="sticker sticker-honey">Chapter 3</span>
+    <span class="sticker sticker-honey">Chapter 4</span>
     <h2 style="font-size:2rem;color:white">How to Teach Kids to Teach Dogs 🐾</h2>
   </div>
   <div class="s4-body">
@@ -435,7 +489,7 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Nunito',sans-serif
 <!-- S5 BURN -->
 <div class="slide polka-caramel" id="s5">
   <div class="topbar topbar-dk anim-up">
-    <span class="sticker sticker-rust">Chapter 4</span>
+    <span class="sticker sticker-rust">Chapter 5</span>
     <h2 style="font-size:2.2rem;color:white">Feel the Burn 🔥</h2>
   </div>
   <div class="s5-body">
@@ -475,7 +529,7 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Nunito',sans-serif
 <!-- S6 STUDENT WORK -->
 <div class="slide polka" id="s6">
   <div class="topbar topbar-peach anim-up">
-    <span class="sticker sticker-dk">Chapter 5</span>
+    <span class="sticker sticker-dk">Chapter 6</span>
     <h2 style="font-size:2.2rem;color:white">Multiple Experiences 🌟</h2>
     <span class="s6-badge">✦ Real Student Work ✦</span>
   </div>
@@ -582,7 +636,7 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'Nunito',sans-serif
 <div id="nav">
   <button class="nav-arrow" id="prev">←</button>
   <div class="dots" id="dots"></div>
-  <div id="slide-count">1 / 9</div>
+  <div id="slide-count">1 / 10</div>
   <button class="nav-arrow" id="next">→</button>
 </div>
 
